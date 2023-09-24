@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Audio and Mel Image Comparisons</title>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+        }
+
+        td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            vertical-align: top;
+        }
+
+        th, td {
+            text-align: left;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Original and restored mel spectrograms</h1>
+    <h2>Examples of experiments with LibriSpeech ASR corpus</h2>
+
+    <!-- Sample 1 -->
+    <h3>Sample 1</h3>
+    <table>
+        <tr>
+            <td>
+                <b>True Output Audio:</b><br>
+                <audio controls>
+                    <source src="examples/true_output_0.wav" type="audio/wav">
+                    Your browser does not support the audio element.
+                </audio>
+            </td>
+            <td>
+                <b>Predicted Output Audio:</b><br>
+                <audio controls>
+                    <source src="examples/pred_output_0.wav" type="audio/wav">
+                    Your browser does not support the audio element.
+                </audio>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <img src="examples/true_mel_0.png" alt="True Mel Image 0">
+            </td>
+            <td>
+                <img src="examples/pred_mel_0.png" alt="Predicted Mel Image 0">
+            </td>
+        </tr>
+    </table>
+
+    <!-- Sample 2 -->
+    <h3>Sample 2</h3>
+    <table>
+        <tr>
+            <td>
+                <b>True Output Audio:</b><br>
+                <audio controls>
+                    <source src="examples/true_output_1.wav" type="audio/wav">
+                    Your browser does not support the audio element.
+                </audio>
+            </td>
+            <td>
+                <b>Predicted Output Audio:</b><br>
+                <audio controls>
+                    <source src="examples/pred_output_1.wav" type="audio/wav">
+                    Your browser does not support the audio element.
+                </audio>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <img src="examples/true_mel_1.png" alt="True Mel Image 1">
+            </td>
+            <td>
+                <img src="examples/pred_mel_1.png" alt="Predicted Mel Image 1">
+            </td>
+        </tr>
+    </table>
+
+    <!-- Sample 3 -->
+    <h3>Sample 3</h3>
+    <table>
+        <tr>
+            <td>
+                <b>True Output Audio:</b><br>
+                <audio controls>
+                    <source src="examples/true_output_2.wav" type="audio/wav">
+                    Your browser does not support the audio element.
+                </audio>
+            </td>
+            <td>
+                <b>Predicted Output Audio:</b><br>
+                <audio controls>
+                    <source src="examples/pred_output_2.wav" type="audio/wav">
+                    Your browser does not support the audio element.
+                </audio>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <img src="examples/true_mel_2.png" alt="True Mel Image 2">
+            </td>
+            <td>
+                <img src="examples/pred_mel_2.png" alt="Predicted Mel Image 2">
+            </td>
+        </tr>
+    </table>
+
+    <!-- Sample 4 -->
+    <h3>Sample 4</h3>
+    <table>
+        <tr>
+            <td>
+                <b>True Output Audio:</b><br>
+                <audio controls>
+                    <source src="examples/true_output_3.wav" type="audio/wav">
+                    Your browser does not support the audio element.
+                </audio>
+            </td>
+            <td>
+                <b>Predicted Output Audio:</b><br>
+                <audio controls>
+                    <source src="examples/pred_output_3.wav" type="audio/wav">
+                    Your browser does not support the audio element.
+                </audio>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <img src="examples/true_mel_3.png" alt="True Mel Image 3">
+            </td>
+            <td>
+                <img src="examples/pred_mel_3.png" alt="Predicted Mel Image 3">
+            </td>
+        </tr>
+    </table>
+
+    <!-- Sample 5 -->
+    <h3>Sample 5</h3>
+    <table>
+        <tr>
+            <td>
+                <b>True Output Audio:</b><br>
+                <audio controls>
+                    <source src="examples/true_output_4.wav" type="audio/wav">
+                    Your browser does not support the audio element.
+                </audio>
+            </td>
+            <td>
+                <b>Predicted Output Audio:</b><br>
+                <audio controls>
+                    <source src="examples/pred_output_4.wav" type="audio/wav">
+                    Your browser does not support the audio element.
+                </audio>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <img src="examples/true_mel_4.png" alt="True Mel Image 4">
+            </td>
+            <td>
+                <img src="examples/pred_mel_4.png" alt="Predicted Mel Image 4">
+            </td>
+        </tr>
+    </table>
+
+</body>
+
+</html>
+
