@@ -1,4 +1,4 @@
-# Audio and Mel Image Comparisons
+# PictoSound
 
 ## Audio and Mel Image Comparisons
 ### Sample
